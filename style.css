@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #070A1B;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-menu {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.social-list {
+    display: flex;
+    gap: 30px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.social-img {
+    align-self: center;
+}
+
+.social-link:hover {
+    background-color: #C1A1D2;
+}
+
+.top{
+ background-image: url(../images/top-bg.png);
+ min-height: calc(100vh - 100px);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ background-color: #070A1B;
+ display: flex;
+ justify-content: center;
+ align-items: end;
+}
+
+.top-content{
+    max-width: 605px;
+    text-align: center;
+    color: #fff;
+}
+
+.top-title{
+margin-bottom: 10px;
+font-size: 72px;
+font-weight: bold;
+font-family: serif;
+}
+
+.top-text{
+ margin-bottom: 10px;
+ font-size: 24px;
+ font-weight: 400px;
+}
+
+.bg{
+background: linear-gradient(180deg, #070A1B 0%, #2A3170 100%);
+}
+
+.concept{
+    padding: 150px 0;
+}
+
+.concept-title{
+    color: #C1A1D2;
+    text-transform: uppercase;
+    font-family: serif;
+    margin-bottom: 25px;
+}
+
+.concept-text{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
